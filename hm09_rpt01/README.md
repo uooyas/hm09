@@ -16,3 +16,6 @@
 - target
 - img src
 - br
+- hr
+- heading
+- utf-8
