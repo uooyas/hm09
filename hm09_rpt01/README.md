@@ -4,8 +4,8 @@
   - hm05_sitelist.html : 홈피 링크 네비게이터, 링크로 구성
   - hm05_info.html : 나의 소개
     - hm05_day.html : 나의 하루 소개
-    - hm05_best3_country.html : 여행 가고싶은곳 3
-    - hm05_best3_movie.html : 좋아하는 영화 3
+    - hm05_best3_dramas.html : 내가 좋아하는 드라마 top3
+    - hm05_best3_hobby.html : 내가 좋아하는 취미 3가지
 
 ## 사용한 html 기술
 - list
