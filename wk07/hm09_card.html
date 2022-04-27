@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm09 : CSS3 advanced</title>
+		<link rel="stylesheet" href="cmcard.css">
+		<style>
+			
+		</style>
+		<script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+		<script></script>
+	</head>
+
+	<body style="overflow-y: hidden">
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h2 style="position: absolute; margin-left: 40px; margin-top: 30px;">Happy! 	NewYear!</h2>
+		<p>
+		<img id="background" src="media/background.png"
+		width="860" height="640"
+		style="position: relative; 
+		bottom: -70px;
+		left: 13.5px;
+		z-index: -5;"
+		alt="배경">
+		</p>
+		<img id = "tree" src="media/christmastree.png"
+		width="400" height="400"
+		style="position: absolute; 
+		bottom: 0px;
+		left: 240px;"
+		alt="크리스마스 트리">
+		<img id = "santa3" src="media/santa3.png"
+		width="100" height="100"
+		style="position: absolute; 
+		bottom: 72%;
+		left: 380px;"
+		alt="산타클로스3">
+		<img id = "snowman" src="media/snowman.png" z-index:5
+		width="200" height="130"
+		style="position: absolute; 
+		bottom: 0%;
+		left: 50px;"
+		alt="눈사람">
+		<img id = "santa" src="media/santa.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -5%;
+		left: 600px;"
+		alt="산타클로스">
+		<!-- 선물상자 버전1 -->
+		<img id = "present1" src="media/present-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -5%;
+		left: 650px;
+		z-index: -1;"
+		alt="선물상자1">
+		<img id = "present2" src="media/present-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -16%;
+		left: 50px;
+		z-index: 1;"
+		alt="선물상자2">
+		<img id = "present3" src="media/present-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -15%;
+		left: 430px;
+		z-index: 1;"
+		alt="선물상자3">
+		<img id = "present4" src="media/present-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -5%;
+		left: 150px;
+		z-index: -1;"
+		alt="선물상자4">
+		<img id = "present5" src="media/present-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -5%;
+		left: 350px;
+		z-index: -1;"  	
+		alt="선물상자5">
+		<!-- 선물상자 버전2 -->
+		<img id = "present01" src="media/prsento-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -15%;
+		left: 650px;
+		z-index: 1;"  	
+		alt="선물상자01">
+		<img id = "present02" src="media/prsento-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -5%;
+		left: 20px;
+		z-index: -1;"  	
+		alt="선물상자02">
+		<img id = "present03" src="media/prsento-removebg-preview.png" z-index:5
+		width="200" height="230"
+		style="position: absolute; 
+		bottom: -15%;
+		left: 250px;
+		z-index: 1;"  	
+		alt="선물상자03">
+		<div id="fixed">
+			<span1>M</span1>
+		</div>
+		<div id="fixed2">
+			<span1>E</span1>	
+		</div>
+		<div id="fixed3">
+			<span1>R</span1>
+		</div>
+		<div id="fixed4">
+			<span1>R</span>
+		</div>
+		<div id="fixed5">
+			<span1>Y</span1>
+		</div>
+		<div id="fixed6">
+			<span1>C</span1>
+		</div>
+		<div id="fixed7">
+			<span1>h</span1>
+		</div>
+		<div id="fixed8">
+			<span1>r</span1>
+		</div>
+		<div id="fixed9">
+			<span1>i</span1>
+		</div>
+		<div id="fixed10">
+			<span1>s</span1>
+		</div>	
+		<div id="fixed11">
+			<span1>t</span1>
+		</div>	
+		<div id="fixed12">
+			<span1>m</span1>
+		</div>
+		<div id="fixed13">
+			<span1>a</span1>
+		</div>	
+		<div id="fixed14">
+			<span1>s</span1>
+		</div>
+	
+		<!-- 트리의 o꾸미기 -->	
+		<div id="fixed15">
+			<span4>ㅇ</span4>
+		</div>
+		<div id="fixed16">
+			<span3>ㅇ</span3>
+		</div>
+		<div id="fixed17">
+			<span>ㅇ</span>
+		</div>
+		<div id="fixed18">
+			<span4>ㅇ</span4>
+		</div>
+		<div id="fixed19">
+			<span>ㅇ</span>
+		</div>
+		<div id="fixed20">
+			<span3>ㅇ</span3>
+		</div>
+		<div id="fixed21">
+			<span>ㅇ</span>
+		</div>
+		<div id="fixed22">
+			<span4>ㅇ</span4>
+		</div>
+		<div id="fixed23">
+			<span4>ㅇ</span4>
+		</div>
+		<div id="fixed24">
+			<span>ㅇ</span>
+		</div>
+		<div id="fixed25">
+			<span3>ㅇ</span3>
+		</div>
+		<div id="fixed26">
+			<span>ㅇ</span>
+		</div>
+		<!--여기서부터 별꾸미기  -->
+		<div id="fixed27">
+			<span>*</span>
+		</div>
+		<div id="fixed28">
+			<span>*</span>
+		</div>
+		<div id="fixed29">
+			<span>*</span>
+		</div>
+		<div id="fixed30">
+			<span>*</span>
+		</div>
+		<div id="fixed31">
+			<span>*</span>
+		</div>
+		<div id="fixed32">
+			<span>*</span>
+		</div>
+		<!-- 별의 가운데 -->
+		<div id="fixed33">
+			<span5>*</span5>
+		</div>
+		<div id="fixed01" style="font-size: 15pt;;" >
+			hm09 박세훈
+		</div>
+		<audio src="media/Mariah Carey - All I Want for Christmas Is You ㅣ COVER by 채원 ㅣ COVER ㅣ Honey챈.mp3"
+		autoplay controls style="position: absolute; top: 70px; left: 1.5%;"></audio>
+	</body>
+
+</html>
