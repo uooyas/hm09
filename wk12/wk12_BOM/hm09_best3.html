@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm09 : window.location으로 웹 사이트 접속</title>
+    <style></style>
+
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location=select.options[select.selectedIndex].value;
+      }
+    </script>
+    </head>
+    <body>
+    <h3>window.location으로 웹 사이트 접속</h3>
+    <hr>
+    사이트 선택 :
+    <select id="site">
+        <option value="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=1728670&qvt=0&query=%EB%A7%88%EB%A7%88%EB%AC%B4%20%ED%9C%98%EC%9D%B8%20%ED%94%84%EB%A1%9C%ED%95%84" selected>정휘인
+        <option value="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=6441622&qvt=0&query=%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8%20%EB%B0%95%EC%A7%80%EC%9B%90%20%ED%94%84%EB%A1%9C%ED%95%84">박지원
+        <option value="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%B5%9C%EC%98%88%EB%82%98+%ED%94%84%EB%A1%9C%ED%95%84&oquery=%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8%EB%B0%95%EC%A7%80%EC%9B%90+%ED%94%84%EB%A1%9C%ED%95%84&tqi=ho3jzsp0JXossKWaQL8ssssssGl-037265">최예나
+    </select>
+    <p>
+    <button onclick="load()">웹 사이트 접속</button>
+    </p>
+  </body>
+</html>
