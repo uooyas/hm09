@@ -1,0 +1,27 @@
+.Mimg{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+}
+
+#my{
+    position: relative; 
+    width: 200px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#my #my1{
+    width: 300px;
+}
+span1{
+    color: rgb(255, 103, 242);
+
+}
+
+#my2{
+    color: rgb(255, 103, 242);
+    font-size: larger;
+}
